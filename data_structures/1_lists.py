@@ -36,3 +36,7 @@ l2=['a', 'r', 'r', 't', 'r']
 l3=l1+l2
 print(l1+l2)
 print(l1, l2, l3)
+
+#nested lists
+l1=[[1,2,3], 3, [6,4,7,8], 'hey']
+print(l1[2][3])
