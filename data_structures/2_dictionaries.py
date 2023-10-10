@@ -15,6 +15,8 @@ print(dic[1], dic[2])
 
 #dictionary methods
 dic={'a':1, 'b':2, 'c':3, 'd':4, 'e':5}
+dic['f']=6
+dic['g']=7
 print(dic.keys()) #return the list of keys
 print(dic.values()) #return the list of values
 print(dic.items()) #return dict as a list of tuples

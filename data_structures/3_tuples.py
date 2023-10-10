@@ -9,4 +9,6 @@ print(tpl.count('3'))
 print(tpl.index('3')) #return the first index of '3'
 
 tpl=(1,5,2,7,4,0)
+# tpl[2]=6 #shows error as immutable
 print(tpl)
+print(list(tpl)) #tuple to list
