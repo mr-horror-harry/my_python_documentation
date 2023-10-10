@@ -1,0 +1,8 @@
+This is a simple file
+It contains only the text
+Author: "Harry J"
+Date created: "10/10/2023"
+Desc: "Simple text file"
+Date Modified: "10/10/2023"
+
+Thankyou
