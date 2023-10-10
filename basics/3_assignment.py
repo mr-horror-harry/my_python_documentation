@@ -10,6 +10,8 @@ print(a)
 x,y=10,4
 a,b=x,4.0*y
 print(a,b,x,y)
+x+=y
+print(x)
 
 #split assigning
 print("Enter two nos only: ")
