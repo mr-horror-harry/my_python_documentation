@@ -21,3 +21,6 @@ print(10**10)
 
 #fractional exponent of nos
 print(100**(1/2))
+
+#expression in py
+print((1*2) + (56/8) - 6**2 % 2)
