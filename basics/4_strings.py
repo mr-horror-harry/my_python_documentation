@@ -20,3 +20,6 @@ print("Hello\n\\n")
 print("Hello I'Harry! This is 'important' ")
 # ' ' over  " "
 print('Hello I\'Harry! This is "important" ') #need for raw string for apostrophe 
+
+s+=s #concat and assign
+print(s)
