@@ -19,3 +19,6 @@ print(dic.keys()) #return the list of keys
 print(dic.values()) #return the list of values
 print(dic.items()) #return dict as a list of tuples
 print(len(dic)) #return length of dict
+
+print(len(dic))
+print(type(dic))
