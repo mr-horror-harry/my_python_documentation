@@ -1,4 +1,5 @@
-file=open('/home/mitsuser/my_python_documentation/file_handling/1_file_opr.py')
+#file=open('/home/mitsuser/my_python_documentation/file_handling/file.txt')
+file=open('/home/m/Documents/myGitHub/my_python_documentation/file_handling/file.java')
 
 print(file.read())
 file.seek(0)
