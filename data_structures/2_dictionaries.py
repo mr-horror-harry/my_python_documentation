@@ -15,7 +15,7 @@ print(dic[1], dic[2])
 
 #dictionary methods
 dic={'a':1, 'b':2, 'c':3, 'd':4, 'e':5}
-print(dic.keys())
-print(dic.values())
-print(dic.items())
-print(len(dic))
+print(dic.keys()) #return the list of keys
+print(dic.values()) #return the list of values
+print(dic.items()) #return dict as a list of tuples
+print(len(dic)) #return length of dict
