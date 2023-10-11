@@ -1,3 +1,4 @@
 Hello this mssg is written through file handling write operation!
 Hello this mssg is appended through file handling write operation!
-This is through read and append!This is through read and append!This is through read and append!This is through read and append!
+This is through read and append!
+This is through read and append!

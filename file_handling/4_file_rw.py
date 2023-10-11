@@ -1,6 +1,6 @@
 #This is to read and write with the same file opener
 
-file = open('/home/mitsuser/my_python_documentation/file_handling/tmp_file.txt', 'r+')
+file = open('./tmp_file.txt', 'r+')
 
 print(file.read())
 
