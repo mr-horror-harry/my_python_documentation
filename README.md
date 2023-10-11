@@ -1,5 +1,5 @@
 # my_python_documentation
-This is my mini python documentation
+This is my mini python documentation (python 3.0)
 
 My Theory Notes for the Python Scripts and concepts
 
