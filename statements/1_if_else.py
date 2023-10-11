@@ -8,7 +8,7 @@ if True:
 x=1
 if x==10:
     print("x is 10")
-else
+else:
     print("x is not 10")
 
 #if elif else
