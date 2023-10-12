@@ -25,7 +25,7 @@ l1.reverse() #to reverse the list it occurs at memory and not on runtime
 print(l1)
 
 l1=[1,67,23,78,25,65,23]
-l1.sort() #to sort the list it occurs at memory and not on runtime
+l1.sort() #to sort the list it occurs at memory and not on runtime : inplace action
 print(l1)
 l1.sort(reverse=True) #sort in descending
 print(l1)
