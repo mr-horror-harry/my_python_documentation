@@ -9,18 +9,22 @@ class SuperClass():
     def printDetails(self):
         print(self.name, self.regno, "from the super class")
 
-class SubClass():
+    def commonMssg(self):
+        print("Im the spuermost unique method!")
+
+class SubClass(SuperClass):
     
-    def __init__(self, SuperClass, name, regno,  gender):
-        SuperClass.__init__(name, regno)
+    def __init__(self, gender):
         self.gender=gender
 
     def printDetails(self):
-        print(SuperClass.name, SuperClass.regno,"from the super class", self.gender, "from the sub class")
+        print(self.gender, "from the sub class")
 
 spr = SuperClass('Harry', 2012094)
 spr.printDetails()
+spr.commonMssg()
 
-sub = SubClass(spr, 'Horror', 36937, 'Male')
+sub = SubClass('Male')
 sub.printDetails()
+sub.commonMssg() #accessing method inherited from the super class
 
