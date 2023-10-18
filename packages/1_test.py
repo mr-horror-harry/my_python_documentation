@@ -19,3 +19,4 @@ print(string.str_mul("Hello ",5))
 
 #packages -> folder ( a collection of modules )
 #modules -> files
+#functions -> contents
