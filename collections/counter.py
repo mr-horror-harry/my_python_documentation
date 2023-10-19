@@ -15,6 +15,3 @@ print(type(ctr))
 
 print(ctr.most_common(5)) #most frequently occured n elements
 print(list(ctr)) #returns a list of ctr elements
-
-#defaultdict
-#namedtuple
