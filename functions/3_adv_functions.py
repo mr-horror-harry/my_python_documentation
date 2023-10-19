@@ -32,5 +32,8 @@ print()
 
 
 #lambda function:
-print(*list( map(lambda n:n**2, li) ))
+print(*list( map(lambda n:n**2, li) )) #as if anonymous function
 print(*list( filter(lambda n:n%2==0, li) ))
+
+# def square(n):
+#     return(n**2)
