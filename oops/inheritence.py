@@ -1,6 +1,6 @@
 #This script is to view the working of the python inhertence
 
-class SuperClass():
+class SuperClass:
     
     def __init__(self, name, regno):
         self.name=name
