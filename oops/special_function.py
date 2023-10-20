@@ -17,4 +17,5 @@ obj = Sample('c45Rex54')
 print(obj)  #without __str__() output would be the address
 print( str(obj) )
 print( len(obj) )
-del obj
+del(obj)
+#del obj #both are right
