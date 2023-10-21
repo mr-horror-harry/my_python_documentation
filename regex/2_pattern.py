@@ -16,7 +16,7 @@ print(x.span())
 print(x.group())
 
 for i in re.finditer(r'(\d{2})-(\d{2})-(\d{2})', sent): # multi search
-    print(i.group())
+    print(i.group(1), i.group(2)) # to print the 1st & 2nd part of group --> ( ) usage
 
 x = re.search(r'(\d*-)', sent) #for 0 or more
 print(x.group())
