@@ -8,5 +8,6 @@ mat = [[2,5,8],[4,1,8],[4,6,8],[6,7,3]]
 
 for row in mat:
     appender.writerow(row)
+    #write rows for multiple rows as single arguement
 
 file.close()
