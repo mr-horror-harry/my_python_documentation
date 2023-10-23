@@ -18,6 +18,8 @@ print(rd.randint(10,100))
 print(rd.randint(10,100))
 print(rd.randint(10,100),"\n")
 
+print(rd.uniform(1, 100)) #return random fractional value
+
 li="The brown little fox jumed over the lazy dog!".split()
 print(len(li))
 print(rd.choice(li))

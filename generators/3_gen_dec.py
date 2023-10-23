@@ -1,6 +1,6 @@
-def my_decor(func):
+def my_decor(func):  # ----------(3)
     
-    def wrapper():
+    def wrapper():  # ----------(1)
         #before
         li=[]
         n=int(input("Enter a number: "))
@@ -8,7 +8,7 @@ def my_decor(func):
             li.append(i)
 
         #func to be wrapped
-        li = func(li)
+        li = func(li)   # ----------(2)
 
         #after
         print("The cubes upto {n}:")
@@ -16,10 +16,11 @@ def my_decor(func):
             print(i, end=" ")
     return wrapper
 
-@my_decor
-def cubes(li):
+@my_decor    # ----------(3)
+def cubes(li):   # ----------(2)
     return list(map(lambda n:n**3, li))
 
-cubes()
+cubes() # ----------(1)
 
 #my_decor(cubes) #without annotation
+# ----------(n) : func call and func called
