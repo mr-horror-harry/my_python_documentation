@@ -1,6 +1,6 @@
 import time
 
-t1 = time.time()
+t1 = time.time() #to calculate time more minutely
 for i in range(100000000):
     pass
 t2 = time.time()

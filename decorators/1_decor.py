@@ -13,3 +13,5 @@ def my_func():   #the func to be wrapped
         i+=1
 
 my_func()       #function call
+
+# also refer ../generators/3_gen_dec.py

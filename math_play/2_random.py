@@ -22,9 +22,9 @@ li="The brown little fox jumed over the lazy dog!".split()
 print(len(li))
 print(rd.choice(li))
 print(rd.choices(population=li, k=10)) #repetition allowed 
-print(rd.choices(li, k=10))
+# print(rd.choices(li, k=10)) # (or) above
 print(rd.sample(li, k=8)) #no repetition k <= len(li)
 
 print(li)
-rd.shuffle(li) #shuffle the list
+rd.shuffle(li) #shuffle the list --> memory lvl operation
 print(li)

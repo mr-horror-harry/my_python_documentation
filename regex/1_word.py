@@ -12,8 +12,7 @@ print(re.search(word1, sent).group())
 word2='the'
 print(re.findall(word2, sent))
 
-
 li = re.finditer(word2, sent)
 for i in li:
-    print(i.span())
-    print(i.group())
+    print(i.span()) #indices of all found matches
+    print(i.group()) #printing all span indices
