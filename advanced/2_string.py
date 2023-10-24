@@ -5,6 +5,9 @@ print(s.upper())
 print(s.lower())
 print(s.title(),"\n") #capitalize the first letter of every word
 
+#count of elts
+print("Count of 'e':", s.count('e'))
+
 print('Check Methods: ')
 s='HEY DOOD!'
 print(s.isupper())
