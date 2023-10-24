@@ -1,9 +1,9 @@
 import math as mt 
 
-print(mt.floor(3.352))
-print(mt.ceil(3.352))
+print(mt.floor(3.352)) #next immediate whole no.
+print(mt.ceil(3.352)) #previous immediate whole no.
 
-print(round(4.34535))
+print(round(4.34535)) #rounding off
 
 print("Exponential:",mt.e,
         " Infinfity:", mt.inf,

@@ -12,7 +12,8 @@ print(x) #return a list
 
 for i in re.finditer(r'al', sent): #as an iterator
     print(i.group())
-    
+
+#either of the keyword pattern
 x = re.search(r'are|ere|bad', sent)
 print(x.span())
 print(x.group())
@@ -31,9 +32,9 @@ sent1 = "56 Hello Im good at 1 yp"
 sent2 = "Hello Im 34 good at 1 yp"
 sent3 = "Hello Im4 good at 1 year23"
 
-#sentence starts with a pttern
+#sentence starts with a pattern
 print(re.findall('^\d', sent1), re.findall('^\d', sent2), re.findall('^\d', sent3)) #sent1 is true
-#sentence ends with a pttern
+#sentence ends with a pattern
 print(re.findall(r'\d$', sent1), re.findall('\d$', sent2), re.findall('\d$', sent3)) #sent3 is true
 
 #exclusion

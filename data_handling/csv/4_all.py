@@ -1,10 +1,12 @@
 import csv
 
+#read mode pointer
 file = open('./wholesale-trade-survey-june-2023-quarter-csv.csv')
 data = csv.reader(file)
 li = list(data)
 file.close()
 
+#pointer to write and read
 file2 = open('./written.csv', mode='w+', newline='')
 writer = csv.writer(file2, delimiter=':')
 
