@@ -7,6 +7,7 @@ images = soup.select('img')
 
 print("Toatal No. of image content:", len(images))
 
+file=""
 for i in range(len(images)):
     img_tag = images[i]
     try:
