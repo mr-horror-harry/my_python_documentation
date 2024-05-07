@@ -8,6 +8,7 @@ data=file.read()
 print(data)
 file.seek(0)
 
-print(file.readlines())
+lines = file.readlines()
+print(type(lines))
 
 file.close()

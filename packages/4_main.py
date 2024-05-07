@@ -10,12 +10,12 @@ def greeting():
 def helloWorld():
     print("The first program is Hello world printing!")
 
-pck.call()
-
 if __name__=="__main__":
-    print("Main scipt is run directly!")
+    print("Main script is run directly!")
     welcome()
     greeting()
     helloWorld()
 else:
     print("Main script is being imported and called!")
+
+pck.call()
