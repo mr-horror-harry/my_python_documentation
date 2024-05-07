@@ -30,6 +30,9 @@ print(l1)
 l1.sort(reverse=True) #sort in descending
 print(l1)
 
+# sorted -> return the data
+# sort -> in place operation
+
 print(l1.count(23))
 print(l1.index(78)) #return the first index of '78'
 
