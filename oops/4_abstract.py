@@ -1,6 +1,6 @@
 class Polygon():
     def noOfSides(self):
-        raise NotImplementedError("This methodod is Abstract!")
+        pass
 
 class Triangle(Polygon):
     def noOfSides(self):
@@ -11,7 +11,7 @@ class Square(Polygon):
         print("Four sides!")
 
 # pol = Polygon()
-# pol.noOfSides() #throws err since abstract
+# pol.noOfSides() #the methododoly is abstract and is overidden by child classes
 
 tri = Triangle()
 tri.noOfSides()
